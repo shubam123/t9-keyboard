@@ -1,0 +1,17 @@
+table,tr,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+input[type="text"]{
+	font-size: 30px;
+}
+td:hover{
+	background: rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+td:active{
+	background: rgba(0,0,0,0.5);
+}
